@@ -1,0 +1,19 @@
+.container {
+	text-align: center;
+}
+.form-group {
+	padding: 5px;
+}
+.form-group .input-text {
+	width: 345px;
+	height: 25px;
+	padding-left: 5px;
+	font-size: 18px;
+}
+.form-group .btn {
+	width: 100px;
+	height: 25px;
+	font-size: 18px;
+	/*background-color: blue;*/
+	/*color: grey;*/
+}
