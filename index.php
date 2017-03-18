@@ -6,15 +6,20 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-		<div class="form-group">
-			<div>
-				<input type="text" id="url" class="my-input-text" name="url" placeholder="http://example.com или https://example.com">		
+		<!-- <form method="get" action="login.php" id="login"> -->
+		<form id="url" class="form-group">
+          <div>
+				<select id="protokol" class="my-select" name="protocol">
+					<option value="http">http://</option>
+					<option value="https">https://</option>
+				</select>		
+				<input type="text" id="domen" class="my-input-text" name="domen" placeholder="example.com">		
 			</div>
 			<div>
-				<button class="my-input-btn" name="submitBtn" id="submitBtn">Check!</button>	
+				<input type="submit" class="my-input-btn" name="submitBtn" id="submitBtn" value="Check!" >
 			</div>
-		</div>
-		<div id="result-data"></div>
+        </form>
+		<div class="result-data"></div>
 			<!-- <table class="result-data">
 				<tr>
 					<td>11</td>	
@@ -30,6 +35,7 @@
 				</tr>				
 			</table> -->
 
+	<script src="js/jquery.min.js"></script>
 	<script src='js/main.js'></script>
 </body>
 </html>
