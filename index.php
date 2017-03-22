@@ -19,23 +19,8 @@
 				<input type="submit" class="my-input-btn" name="submitBtn" id="submitBtn" value="Check!" >
 			</div>
         </form>
-		<div class="result-data"></div>
-			<!-- <table class="result-data">
-				<tr>
-					<td>11</td>	
-					<td>12</td>		
-				</tr>
-				<tr>
-					<td>21</td>	
-					<td>22</td>		
-				</tr>
-				<tr>
-					<td>31</td>	
-					<td>32</td>		
-				</tr>				
-			</table> -->
-
-	<script src="js/jquery.min.js"></script>
+		<div class="result"></div>
+	<script src="js/jquery-3.2.0.min.js"></script>
 	<script src='js/main.js'></script>
 </body>
 </html>
